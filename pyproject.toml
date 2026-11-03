@@ -1,0 +1,9 @@
+[project]
+name = "gilts-app"
+version = "0.1.0"
+description = "UK gilt and fixed notice account cash flow calculator"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.0"]
